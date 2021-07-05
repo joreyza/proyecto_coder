@@ -1,0 +1,28 @@
+Cambios realizados:
+
+- Cambié el título de index.html a: Inicio - Jorge Desarrollador Web
+- A index.html agregué un meta name description único.
+- en index.html reemplazé el h2 que tenía como encabezado por un h1, para optimizar SEO.
+- en index.html le agregué keywords.
+
+- Cambié el título de about.html a: La historia de Jorge el Desarrollador
+- A about.html agregué un meta name description único.
+- en about.html reordené los h1 y h2 para que tuvieran una estructura jerárquica, de esta forma optimizar SEO.
+- en about.html le agregué keywords.
+
+- Cambié el título de portafolio.html a: Trabajos realizados
+- A portfolio.html agregué un meta name description único.
+- en portfolio.html no tenía un h1 así que lo agregué con un título acorde.
+- en portfolio.html le agregué keywords.
+
+- Cambié el título de servicios.html a: Precios
+- A servicios.html agregué un meta name description único.
+- servicios.html no tenía h1 así que lo agregué con un título acorde.
+- en servicios.html le agregué keywords.
+
+- Cambié el título de contract.html a: Formulario de contacto
+- A contract.html agregué un meta name description único.
+- en contract.html edité el texto de h1 para hacerlo más SEO Friendly.
+- en contract.html le agregué keywords.
+
+

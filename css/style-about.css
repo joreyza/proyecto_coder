@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif !important;
+}
+
+.contenedor {
+    margin-top: 58px;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+
+/* acá uso flex-box para maquetar las secciones*/
+
+#secciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+
+/* acá están los estilos de las secciones */
+
+#secciones {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#seccionesSec {
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    /*acá hago un efecto de cambio de color de background en cada bloque de párrafos*/
+    transition: 1s;
+}
+
+#seccionesSec:hover {
+    background-color: rgba(238, 174, 202, 1);
+}
+
+/*--------------fin del efecto----------------*/
+
+
+
+.encabezado {
+    font-size: 25px;
+    color: rgb(85, 26, 139);
+}
+
+p {
+    font-size: 16px;
+    color: #5d5f9a;
+}
+
+/* acá están los estilos de la lista */
+
+#secciones ul {
+    font-size: 16px;
+    color: #3f37c9;
+}
+
+/* acá está el estilo del ícono de WhatsApp */
+
+#iconoFixed {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    z-index: 100;
+}
+
+#iconoFixed img {
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif !important;
+}
+
+.contenedor {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.encabezado {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* acá está el estilo del formulario*/
+
+.formulario {
+    font-size: 16px;
+    color: rgb(85, 26, 139);
+    background-color: khaki;
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 56px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+
+.formato {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+textarea {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+    font-size: 14px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.boton {
+    width: 40%;
+}
+
+.boton:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: all 0.5s;
+}
+
+.boton:active {
+    transform: translateY(3px);
+}
+
+/* acá está el estilo del ícono de WhatsApp */
+
+#iconoFixed {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    z-index: 100;
+}
+
+#iconoFixed img {
+    width: 80px;
+    height: 80px;
+}

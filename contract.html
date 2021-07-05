@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="formulario de contacto, contactar al desarollador, contactame">
+    <meta name="description"
+        content="Acá puedes encontrar el formulario para poder contactarte con Jorge y así contratar sus servicios">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/style-contract.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor container-fluid">
+
+        <!--Esta es la NavBar-->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jorge Reyes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">Sobre Mi</a>
+                        <a class="nav-link" href="portfolio.html">Portafolio</a>
+                        <a class="nav-link" href="servicios.html">Precios</a>
+                        <a class="nav-link" href="contract.html">Contáctame</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--fin de la NavBar-->
+
+
+        <form class="formulario" id="contentForm">
+            <h1 class="encabezado">Formulario de contacto</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="formato" name="nombre" placeholder="Ingresa tu nombre" />
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" class="formato" name="telefono" placeholder="Ingresa tu teléfono" />
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" class="formato" name="email" placeholder="nombre@ejemplo.com" />
+            <br>
+            <br>
+            <label for="tipoServicio">En qué tipo de servicio está interesado</label>
+            <select name="tipoServicio">
+                <option value="web">Sitio Web</option>
+                <option value="ecom">E-Commerce</option>
+                <option value="mantenimiento">Mantenimiento</option>
+            </select>
+            <br>
+            <br>
+            <label for="tipoProyecto">Elija qué tipo de proyecto necesita:</label>
+            <br><br>
+            <input type="checkbox" name="particular" value="1">
+            <label for="particular">Proyecto Particular</label>
+            <br>
+            <input type="checkbox" name="empresa" value="2">
+            <label for="empresa">Proyecto de Empresa</label>
+            <br>
+            <br>
+            <label for="comments">Comentarios:</label>
+            <br>
+            <textarea name="texto" rows="10" cols="50" placeholder="Escribe aquí tus comentarios"></textarea>
+            <br>
+            <br>
+            <input type="submit" class="boton" value="Enviar formulario" />
+            <input type="reset" class="boton" value="Limpiar formulario" />
+        </form>
+
+
+        <!--acá está el ícono de whatsapp-->
+        <div id="iconoFixed">
+            <a href="https://api.whatsapp.com/send?phone=56978974690" target="_blank"><img src="img/whatsapp.png"
+                    alt="iconoWhatsapp"></a>
+        </div>
+        <!--fin del icono-->
+
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

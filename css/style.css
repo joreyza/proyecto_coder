@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif !important;
+}
+.contenedorPrinc {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+
+
+/* acá están los estilos del texto de bienvenida */
+
+
+#secciones {
+    padding: 50px;
+    margin: auto;
+}
+
+.encabezado {
+    font-size: 25px;
+    color: rgb(85, 26, 139);
+}
+
+p {
+    font-size: 16px;
+    color: #592f38;
+}
+
+/* acá está el estilo del ícono de WhatsApp */
+
+#iconoFixed {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    z-index: 100;
+}
+
+#iconoFixed img {
+    width: 80px;
+    height: 80px;
+}
