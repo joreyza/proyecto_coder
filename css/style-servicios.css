@@ -74,3 +74,12 @@ td {
     width: 80px;
     height: 80px;
 }
+
+/* acá está el estilo de la foto del navbar */
+
+.logoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+}
