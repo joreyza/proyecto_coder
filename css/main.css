@@ -2,4 +2,68 @@
 /* estes es el archivo maestro */
 /* acá están los estilos de las páginas */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif JP', serif !important;
+}
+
+.contenedorPrinc {
+  background: #eeaeca;
+  background: -webkit-gradient(linear, left top, right top, from(#eeaeca), to(#94bbe9));
+  background: linear-gradient(90deg, #eeaeca 0%, #94bbe9 100%);
+}
+
+/* acá están los estilos del texto de bienvenida */
+#secciones {
+  padding: 50px;
+  margin: auto;
+}
+
+.encabezado {
+  font-size: 25px;
+  color: #551a8b;
+}
+
+p {
+  font-size: 16px;
+  color: #592f38;
+}
+
+/* acá está el estilo del ícono de WhatsApp */
+#iconoFixed {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  z-index: 100;
+}
+
+#iconoFixed img {
+  width: 80px;
+  height: 80px;
+}
+
+/* acá está el estilo de la foto */
+.imagen_avatar {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+/* acá está el estilo de la foto del navbar */
+.logoImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid;
+}
 /*# sourceMappingURL=main.css.map */
