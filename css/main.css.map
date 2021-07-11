@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,iCAAiC;ACAjC,0CAA0C;AEA1C,OAAO,CAAC,mFAAI",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/_pages.scss",
+        "../scss/_abstracts.scss",
+        "../scss/_fonts.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
