@@ -1,5 +1,6 @@
 /* acá están los estilos de las páginas */
 
+
 * {
     box-sizing: border-box;
 }
@@ -9,10 +10,10 @@ body {
 }
 
 .contenedorPrinc {
-    background: $color-back1;
-    background: linear-gradient(90deg, $color-back1 0%, $color-back2 100%);
+    margin-top: 58px;
+    background: $color1;
+    background: linear-gradient(90deg, $color1 0%, $color2 100%);
 }
-
 
 
 /* acá están los estilos del texto de bienvenida */
@@ -25,12 +26,12 @@ body {
 
 .encabezado {
     font-size: 25px;
-    color: rgb(85, 26, 139);
+    color: $colorEncabezado;
 }
 
 p {
     font-size: 16px;
-    color: #592f38;
+    color: $colorP;
 }
 
 /* acá está el estilo del ícono de WhatsApp */
@@ -43,11 +44,13 @@ p {
     right: 60px;
     bottom: 60px;
     z-index: 100;
-}
 
-#iconoFixed img {
-    width: 80px;
-    height: 80px;
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+
 }
 
 /* acá está el estilo de la foto */
@@ -70,3 +73,40 @@ p {
     border-radius: 50%;
     border: 1px solid;
 }
+
+/* acá comienzan los estilos de "about.html" */
+/* ----------------------------------------- */
+
+/* acá uso flex-box para maquetar las secciones*/
+
+#secciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/* acá están los estilos de las secciones */
+
+#secciones {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#seccionesSec {
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    /*acá hago un efecto de cambio de color de background en cada bloque de párrafos*/
+    transition: 1s;
+
+    &:hover {
+        background-color: $color1;
+
+    }
+}
+
+/*--------------fin del efecto----------------*/
+/* acá están los estilos de la lista */

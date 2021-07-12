@@ -12,6 +12,7 @@ body {
 }
 
 .contenedorPrinc {
+  margin-top: 58px;
   background: #eeaeca;
   background: -webkit-gradient(linear, left top, right top, from(#eeaeca), to(#94bbe9));
   background: linear-gradient(90deg, #eeaeca 0%, #94bbe9 100%);
@@ -66,4 +67,45 @@ p {
   border-radius: 50%;
   border: 1px solid;
 }
+
+/* acá comienzan los estilos de "about.html" */
+/* ----------------------------------------- */
+/* acá uso flex-box para maquetar las secciones*/
+#secciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* acá están los estilos de las secciones */
+#secciones {
+  padding: 10px;
+  margin: 10px;
+}
+
+#seccionesSec {
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  /*acá hago un efecto de cambio de color de background en cada bloque de párrafos*/
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#seccionesSec:hover {
+  background-color: #eeaeca;
+}
+
+/*--------------fin del efecto----------------*/
+/* acá están los estilos de la lista */
 /*# sourceMappingURL=main.css.map */
