@@ -107,5 +107,10 @@ p {
 }
 
 /*--------------fin del efecto----------------*/
-/* acá están los estilos de la lista */
+/* acá comienzan los estilos de "about.html" */
+/* ----------------------------------------- */
+.intro {
+  text-align: center;
+  padding: 30px;
+}
 /*# sourceMappingURL=main.css.map */
