@@ -130,9 +130,68 @@ table {
 
 .descripcion {
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
+  padding: 10px;
   border: 1px solid;
   border-radius: 5px;
   width: 50vw;
+}
+
+/* acá comienzan los estilos de "contract.html" */
+/* -------------formulario de contacto----------- */
+.encabezado {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* acá está el estilo del formulario*/
+.formulario {
+  font-size: 16px;
+  color: #551a8b;
+  background-color: khaki;
+  width: 500px;
+  height: 800px;
+  margin: auto;
+  margin-top: 66px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px grey;
+          box-shadow: 5px 5px grey;
+}
+
+.formato {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+textarea {
+  width: 90%;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px grey;
+          box-shadow: 5px 5px grey;
+  font-size: 14px;
+  font-family: 'Noto Serif JP', serif;
+  resize: none;
+}
+
+.boton {
+  width: 40%;
+}
+
+.boton:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.boton:hover:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
 }
 /*# sourceMappingURL=main.css.map */
