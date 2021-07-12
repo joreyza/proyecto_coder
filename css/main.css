@@ -37,8 +37,6 @@ p {
 /* acá está el estilo del ícono de WhatsApp */
 #iconoFixed {
   display: block;
-  width: 70px;
-  height: 70px;
   position: fixed;
   right: 60px;
   bottom: 60px;
@@ -46,8 +44,8 @@ p {
 }
 
 #iconoFixed img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 
 /* acá está el estilo de la foto */
@@ -107,10 +105,34 @@ p {
 }
 
 /*--------------fin del efecto----------------*/
-/* acá comienzan los estilos de "about.html" */
+/* acá comienzan los estilos de "portfolio.html" */
 /* ----------------------------------------- */
 .intro {
   text-align: center;
   padding: 30px;
+}
+
+/* acá comienzan los estilos de "servicios.html" */
+/* ----------------------------------------- */
+.tabla {
+  margin-top: 58px;
+  padding: 30px;
+  text-align: center;
+}
+
+table {
+  font-size: 16px;
+  margin: 25px;
+  border: 2px solid;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.descripcion {
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 50vw;
 }
 /*# sourceMappingURL=main.css.map */
