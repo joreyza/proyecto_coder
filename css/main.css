@@ -112,18 +112,30 @@ p {
   padding: 30px;
 }
 
+.cuerpoPort {
+  padding: 0px !important;
+}
+
+.contenedorPort {
+  height: 600px;
+}
+
 /* acá comienzan los estilos de "servicios.html" */
 /* ----------------------------------------- */
+.contenedorServ {
+  height: 600px;
+}
+
 .tabla {
   margin-top: 58px;
   padding: 30px;
   text-align: center;
 }
 
-table {
+.table {
   font-size: 16px;
   margin: 25px;
-  border: 2px solid;
+  border: none;
   margin: auto;
   margin-top: 20px;
 }
