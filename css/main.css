@@ -144,13 +144,18 @@ table {
   text-align: center;
 }
 
+.contenedorForm {
+  width: 99%;
+  height: 900px;
+}
+
 /* acá está el estilo del formulario*/
 .formulario {
   font-size: 16px;
   color: #551a8b;
   background-color: khaki;
   width: 500px;
-  height: 800px;
+  height: 900px;
   margin: auto;
   margin-top: 66px;
   padding: 10px;
@@ -179,19 +184,22 @@ textarea {
 }
 
 .boton {
-  width: 40%;
+  background-color: #cfcccc;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px grey;
+          box-shadow: 5px 5px grey;
 }
 
 .boton:hover {
-  cursor: pointer;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  cursor: pointer !important;
+  -webkit-transform: translateY(-3px) !important;
+          transform: translateY(-3px) !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
 }
 
 .boton:hover:active {
-  -webkit-transform: translateY(3px);
-          transform: translateY(3px);
+  -webkit-transform: translateY(3px) !important;
+          transform: translateY(3px) !important;
 }
 /*# sourceMappingURL=main.css.map */

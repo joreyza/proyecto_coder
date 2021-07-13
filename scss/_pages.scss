@@ -152,6 +152,12 @@ table {
     text-align: center;
 }
 
+.contenedorForm {
+    width: 99%;
+    height: 900px;
+
+}
+
 /* acá está el estilo del formulario*/
 
 .formulario {
@@ -159,7 +165,7 @@ table {
     color: rgb(85, 26, 139);
     background-color: khaki;
     width: 500px;
-    height: 800px;
+    height: 900px;
     margin: auto;
     margin-top: 66px;
     padding: 10px;
@@ -186,15 +192,18 @@ textarea {
 }
 
 .boton {
-    width: 40%;
+    background-color: rgb(207, 204, 204);
+    border: 1px solid black;
+    box-shadow: 5px 5px grey;
+
 
     &:hover {
-        cursor: pointer;
-        transform: translateY(-3px);
-        transition: all 0.5s;
+        cursor: pointer !important;
+        transform: translateY(-3px) !important;
+        transition: all 0.5s !important;
 
         &:active {
-            transform: translateY(3px);
+            transform: translateY(3px) !important;
         }
     }
 }
