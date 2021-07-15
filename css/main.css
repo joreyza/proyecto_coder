@@ -126,15 +126,21 @@ p {
   height: 600px;
 }
 
+@media (max-width: 768px) {
+  .contenedorServ {
+    height: 1000px;
+  }
+}
+
 .tabla {
   margin-top: 58px;
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
 }
 
 .table {
   font-size: 16px;
-  margin: 25px;
+  margin: 15px;
   border: none;
   margin: auto;
   margin-top: 20px;
@@ -146,7 +152,7 @@ p {
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
-  width: 50vw;
+  width: 70vw;
 }
 
 /* acá comienzan los estilos de "contract.html" */
